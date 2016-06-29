@@ -1,11 +1,11 @@
-　　---
-　　layout: default
-　　title: 我的Blog
-　　---
-　　<h2>{{ page.title }}</h2>
+　　<h2></h2>
 　　<p>最新文章</p>
 　　<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
+　　　　
+　　　　　　<li>01 May 2016 <a href="/jekyll_demo/2016/05/01/%E4%BD%BF%E7%94%A8cocoapods%E6%8B%86%E5%88%86%E5%AD%90%E5%B7%A5%E7%A8%8B.html">使用cocoapods拆分子工程</a></li>
+　　　　
+　　　　　　<li>23 Mar 2013 <a href="/jekyll_demo/2013/03/23/my_first_article.html">My_first_article</a></li>
+　　　　
+　　　　　　<li>25 Aug 2012 <a href="/jekyll_demo/2012/08/25/hello-world.html">Hello World</a></li>
+　　　　
 　　</ul>
